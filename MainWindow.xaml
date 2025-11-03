@@ -23,7 +23,7 @@
         </Grid.RowDefinitions>
         <Label Grid.Row="1" Grid.Column="2"  Content="Sample text" Grid.ColumnSpan="3"/>
         <Label Grid.Row="0" Grid.Column="2"  Content="Title of App"/>
-        <Button Grid.Column="2" Content="A" Grid.Row="2"/>
+        <Button Grid.Column="2" Content="A" Grid.Row="2" FontSize="40" FontWeight="Bold" Background="#FFC50BFF" FontFamily="MS Reference Sans Serif" BorderBrush="#FF777777" Foreground="Black"/>
 
 
     </Grid>
