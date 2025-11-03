@@ -9,16 +9,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TodoApp
+namespace TodoApp.vtoroi
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void AddToDoButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
