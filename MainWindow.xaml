@@ -8,9 +8,14 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="347*"/>
-            <ColumnDefinition Width="453*"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="100"/>
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
         <Label Content="Hello" HorizontalAlignment="Left" Margin="186,100,0,0" VerticalAlignment="Top"/>
 
     </Grid>
