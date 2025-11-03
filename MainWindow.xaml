@@ -8,20 +8,23 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/> 
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <Label Grid.Row="1" Grid.Column="1"  Content="Sample text"/>
-        <Label Grid.Row="0" Grid.Column="1"  Content="Title of App"/>
-        <Button Grid.Column="1" Content="A" Grid.Row="2"/>
-        <Button Grid.Column="2" Content="B" Grid.Row="2"/>
+        <Label Grid.Row="1" Grid.Column="2"  Content="Sample text" Grid.ColumnSpan="3"/>
+        <Label Grid.Row="0" Grid.Column="2"  Content="Title of App"/>
+        <Button Grid.Column="2" Content="A" Grid.Row="2"/>
+        <Button Grid.Column="4" Content="B" Grid.Row="2"/>
 
 
     </Grid>
