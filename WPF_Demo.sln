@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Demo", "WPF_Demo.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp", "TodoApp\TodoApp.csproj", "{9627FAA4-07AF-41BD-91F5-DEBF5B86B902}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book of quotes", "Book of quotes\Book of quotes.csproj", "{D2CA2A39-A0E1-41E3-8D55-7A5211E912EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9627FAA4-07AF-41BD-91F5-DEBF5B86B902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9627FAA4-07AF-41BD-91F5-DEBF5B86B902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9627FAA4-07AF-41BD-91F5-DEBF5B86B902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CA2A39-A0E1-41E3-8D55-7A5211E912EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CA2A39-A0E1-41E3-8D55-7A5211E912EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CA2A39-A0E1-41E3-8D55-7A5211E912EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CA2A39-A0E1-41E3-8D55-7A5211E912EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
